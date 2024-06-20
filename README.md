@@ -19,29 +19,44 @@ Directorybrute is a directory and file brute-force tool designed to discover hid
 
 To install `Directorybrute`, follow these steps:
 
-1. Clone the repository from GitHub:
+### Clone the repository from GitHub:
 
-   ```bash
-   git clone https://github.com/tupusuario/Directorybrute.git
-Navigate into the cloned repository directory:
+```bash
+git clone https://github.com/tupusuario/Directorybrute.git
+```
 
+### Navigate into the cloned repository directory:
+
+```bash
 cd Directorybrute
-Install the required dependencies:
+```
+### Install the required dependencies:
 
-
+```bash
 pip install -r requirements.txt
-Usage
+```
+
+## Usage
+
 To run Directorybrute, use the following command from the command line:
 
+```bash
 python directorybrute.py [-u URL] [-w WORDLIST] [-t THREADS]
-Parameters
+```
+
+## Parameters
 -u URL: Specify the target website URL.
 -w WORDLIST: Path to the wordlist for brute-forcing.
 -t THREADS: Number of concurrent threads (optional, default is 10).
-Example usage:
 
+### Example usage:
+
+```bash
 python directorybrute.py -u https://example.com -w wordlist.txt -t 20
-Examples
+```
+
+## Examples
+
 Here are examples demonstrating the execution process and obtained results:
 
 Running Directorybrute against a website:
