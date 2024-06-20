@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-To run Directorybrute, use the following command from the command line:
+To run `Directorybrute`, use the following command from the command line:
 
 ```bash
 python directorybrute.py [-u URL] [-w WORDLIST] [-t THREADS]
@@ -61,19 +61,21 @@ Here are examples demonstrating the execution process and obtained results:
 
 Running Directorybrute against a website:
 
+```bash
 python directorybrute.py -u https://example.com -w common.txt
+```
 
 Running with a custom wordlist and more concurrent threads:
 
-bash
-Copiar código
+```bash
 python directorybrute.py -u https://example.com -w custom.txt -t 30
+```
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
 
-Asegúrate de reemplazar `https://url_a_tu_imagen.png`, `https://url_a_tu_imagen_1.png` y `https://url_a_tu_imagen_2.png` con las URL correctas de tus imágenes relacionadas con tu herramienta Directorybrute. Esto debería proporcionarte un `README.md` completo y listo para usar en tu repositorio de GitHub.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
