@@ -2,9 +2,10 @@
 
 Directorybrute is a directory and file brute-force tool designed to discover hidden directories and files on web servers using HTTP requests.
 
-![Directorybrute](https://url_a_tu_imagen.png)
+![Directorybrute](https://github.com/D1se0/directorybrute/assets/164921056/e62ade8c-809e-4cd8-be17-c2d751e470d6)
 
 ---
+
 
 ## Features
 
