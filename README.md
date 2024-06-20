@@ -31,12 +31,17 @@ git clone https://github.com/D1se0/directorybrute.git
 ### Navigate into the cloned repository directory:
 
 ```bash
-cd Directorybrute
+cd directorybrute
 ```
 ### Install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+./requirements.txt
+```
+or
+
+```bash
+pip3 install requests colorama tqdm
 ```
 
 ## Usage
