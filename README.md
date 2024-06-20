@@ -25,7 +25,7 @@ To install `Directorybrute`, follow these steps:
 ### Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/tupusuario/Directorybrute.git
+git clone https://github.com/D1se0/directorybrute.git
 ```
 
 ### Navigate into the cloned repository directory:
