@@ -60,7 +60,7 @@ python3 directorybrute.py [-u URL] [-w WORDLIST] [-t THREADS]
 ### Example usage:
 
 ```bash
-python3 directorybrute.py -u https://example.com -w wordlist.txt -t 20
+python3 directorybrute.py -u http://example.com/BRUTE -w [WORDLIST] --hp "404" -x "txt,html,php"
 ```
 
 ## Examples
@@ -70,13 +70,13 @@ Here are examples demonstrating the execution process and obtained results:
 Running Directorybrute against a website:
 
 ```bash
-python3 directorybrute.py -u https://example.com -w common.txt
+python3 directorybrute.py -u http://example.com/BRUTE -w [WORDLIST] --hp "404"
 ```
 
 Running with a custom wordlist and more concurrent threads:
 
 ```bash
-python3 directorybrute.py -u https://example.com -w custom.txt -t 30
+python3 directorybrute.py -u https://example.com -w [WORDLIST] --hp "404" -x "txt,html,php" -t 30
 ```
 
 ## Contributing
