@@ -49,7 +49,7 @@ pip3 install requests colorama tqdm
 To run `Directorybrute`, use the following command from the command line:
 
 ```bash
-python3 directorybrute.py [-u URL] [-w WORDLIST] [--hp HIDDEN-PROTOCOL] [-x EXTENSIONS] [-t THREADS]
+python3 directorybrute.py [-u URL] [-w WORDLIST] [--hp HIDDEN-PROTOCOL] [-x EXTENSIONS] [-t THREADS] [-f FILE]
 ```
 
 ## Parameters
