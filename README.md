@@ -53,11 +53,26 @@ python3 directorybrute.py [-u URL] [-w WORDLIST] [--hp HIDDEN-PROTOCOL] [-x EXTE
 ```
 
 ## Parameters
-  -u URL: Specify the target website URL.
+
+  `-h`, `--help` = show this help message and exit
   
-  -w WORDLIST: Path to the wordlist for brute-forcing.
+  `-w` WORDLIST, `--wordlist` WORDLIST = Path to the wordlist for brute-forcing.
+
+  `-t` THREADS, `--threads` THREADS = Number of concurrent threads (optional, default is 10).
+
+  `-u` URL, `--url` URL = URL with BRUTE where it will be replaced to perform brute force (for example, "example.com/BRUTE").
   
-  -t THREADS: Number of concurrent threads (optional, default is 10).
+  `--https` = Use https instead of http.
+  
+  `--hp` HP, `--hide-status` HP = Hide specific HTTP status codes (for example, "200,202").
+
+  `--hw` HW, `--hide-size` HW = Hide specific content sizes (for example, "128,256").
+
+  `-x` EXTENSIONS, `--extensions` EXTENSIONS = Extensions to try, separated by commas (e.g. "txt,html,php").
+
+  `--hd`, `--hidden-directories` = Add a period in front of each word to discover hidden directories or files.
+
+  `-f` FILE, `--file` FILE = File name to export the results.
 
 ### Example usage:
 
