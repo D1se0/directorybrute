@@ -54,7 +54,9 @@ python3 directorybrute.py [-u URL] [-w WORDLIST] [--hp HIDDEN-PROTOCOL] [-x EXTE
 
 ## Parameters
   -u URL: Specify the target website URL.
+  
   -w WORDLIST: Path to the wordlist for brute-forcing.
+  
   -t THREADS: Number of concurrent threads (optional, default is 10).
 
 ### Example usage:
